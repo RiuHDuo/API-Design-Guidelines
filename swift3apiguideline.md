@@ -111,7 +111,7 @@
 	}
 	employees.remove(at: x)
 	```
-	>如果从函数申明中删除介词*at*,很可能是阅读代码的人认为这个函数是删除元素*x*,而不是删除处于*x*位置的元素
+	> 如果从函数申明中删除介词*at*,很可能是阅读代码的人认为这个函数是删除元素*x*,而不是删除处于*x*位置的元素
 	
 	```swift
 	employees.remove(x) // unclear:我们到底是要删除元素x还是第x个元素？
@@ -453,8 +453,9 @@ func move(from start: Point, to end: Point)
     
 ##参数标签
 
-    >func move(`from` start: Point, `to` end: Point)
-    >x.move(`from`: x, `to`: y) 
+ > func move(`from` start: Point, `to` end: Point)
+ 
+ > x.move(`from`: x, `to`: y) 
 
 - **当参数无法被有效区分的时候隐藏所有参数标签.**比如`min(number1, number2)`, `zip(sequence1, sequence2).`
 
